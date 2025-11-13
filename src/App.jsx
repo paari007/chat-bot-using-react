@@ -13,7 +13,8 @@ function App(){
             Chatbot.addResponses({
               arun : 'sotta,sotta sotta',
               vijay:"kusu moota",
-              geetha:'geetha bhai zindha bhai'
+              geetha:'geetha bhai zindha bhai',
+              gautham: "hello gautham"
             })
        },[])
 

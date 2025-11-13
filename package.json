@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "mktest": "mkdir test",
-    "rmtest": "rmdir test"
+    "rmtest": "rmdir test",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "dayjs": "^1.11.18",
